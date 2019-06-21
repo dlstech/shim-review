@@ -39,7 +39,7 @@ Who is the primary contact for security updates, etc.
 - Name: Jordan Kurosky
 - Position: Technology Manager
 - Email address: jkurosky@dlstech.com
-- PGP:  
+- PGP: https://github.com/dlstech/shim-review/blob/master/keys/jkurosky.pub
 
 -------------------------------------------------------------------------------
 Who is the secondary contact for security updates, etc.
@@ -47,12 +47,12 @@ Who is the secondary contact for security updates, etc.
 - Name: Sibyl Weng
 - Position: Operations Manager
 - Email address: sweng@dlstech.com
-- PGP:
+- PGP: https://github.com/dlstech/shim-review/blob/master/keys/sweng.pub
 
 -------------------------------------------------------------------------------
 What upstream shim tag is this starting from:
 -------------------------------------------------------------------------------
-[ADD TAG]
+https://github.com/rhboot/shim/tree/15 + commits up to https://github.com/rhboot/shim/tree/a4a1fbe728c9545fc5647129df0cf1593b953bec
 
 -------------------------------------------------------------------------------
 URL for a repo that contains the exact code which was built to get this binary:
@@ -86,7 +86,7 @@ http://mirror.centos.org/centos/7/os/x86_64/Packages/gnu-efi-devel-3.0.8-2.el7.x
 Which files in this repo are the logs for your build?   This should include logs for creating the buildroots, applying patches, doing the build, creating the archives, etc.
 -------------------------------------------------------------------------------
 We have not modified any of the files from the SHIM repository.
-[Link build.log here]
+https://github.com/dlstech/shim-review/blob/master/typescript
 
 -------------------------------------------------------------------------------
 Add any additional information you think we may need to validate this shim
